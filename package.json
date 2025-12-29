@@ -1,7 +1,6 @@
 {
   "name": "@smart-coder-labs/vite-config",
   "version": "1.0.1",
-  "private": true,
   "type": "module",
   "exports": {
     "./react": "./react.js"
@@ -11,5 +10,12 @@
   },
   "peerDependencies": {
     "vite": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smart-coder-labs/vite-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
