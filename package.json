@@ -1,0 +1,15 @@
+{
+  "name": "@smart-coder-labs/vite-config",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./react": "./react.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.2"
+  },
+  "peerDependencies": {
+    "vite": "^7.0.0"
+  }
+}
